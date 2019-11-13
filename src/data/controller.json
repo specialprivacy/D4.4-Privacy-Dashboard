@@ -1,0 +1,134 @@
+{
+  "consents": [
+    {
+      "label": "Logging",
+      "description": "Our servers log all incoming requests. We use this information to detect and resolve system errors."
+    },
+    {
+      "label": "Location-based recommendations",
+      "description": "To suggest you people and places in your near we use your location information."
+    },
+    {
+      "label": "Location sharing",
+      "description": "In order to share locations with other users we forward your location to your friends."
+    },
+    {
+      "label": "Authentication",
+      "description": "In order to use our service, we need your full name and your email address."
+    },
+    {
+      "label": "Photo upload",
+      "description": "To upload photos and share it with your friends we need to process and forward these."
+    },
+    {
+      "label": "Video upload",
+      "description": "To upload videos and share it with your friends we need to process and forward these."
+    },
+    {
+      "label": "Voice messaging",
+      "description": "If you want to send your friends voice messages we need to process and forward these."
+    },
+    {
+      "label": "Profiling",
+      "description": "In order to offer you this service without charge, we create and sell a profile of you to others."
+    },
+    {
+      "label": "Publishing texts",
+      "description": "To communicate with your friends we need to process and forward text you disclose."
+    }
+  ],
+  "consentsV2": {
+    "controllerFeatures": [
+      {
+        "label": "Authentication",
+        "description": "In order to use our service, we need your full name and your email address.",
+        "credit": 50
+      },
+      {
+        "label": "Logging",
+        "description": "Our servers log all incoming requests. We use this information to detect and resolve system errors.",
+        "credit": 50
+      },
+      {
+        "label": "Profiling",
+        "description": "In order to offer you this service without charge, we create and sell a profile of you to others.",
+        "credit": 600
+      },
+      {
+        "label": "Location tracking",
+        "description": "In order to share locations with other users we forward your location to your friends.",
+        "credit": 1000
+      }
+    ],
+    "userFeatures": [
+      {
+        "label": "Publishing texts",
+        "description": "To communicate with your friends we need to process and forward text you disclose.",
+        "price": 100
+      },
+      {
+        "label": "Photo upload",
+        "description": "To upload photos and share it with your friends we need to process and forward these.",
+        "price": 100
+      },
+      {
+        "label": "Video upload",
+        "description": "To upload videos and share it with your friends we need to process and forward these.",
+        "price": 200
+      },
+      {
+        "label": "Voice messaging",
+        "description": "If you want to send your friends voice messages we need to process and forward these.",
+        "price": 300
+      },
+      {
+        "label": "Location sharing",
+        "description": "In order to share locations with other users we forward your location to your friends.",
+        "price": 500
+      },
+      {
+        "label": "Location-based recommendations",
+        "description": "To suggest you people and places in your near we use your location information.",
+        "price": 500
+      }
+    ]
+  },
+  "messages": [
+    {
+      "subject": "Withdrawal of consent",
+      "date": 1484580368000,
+      "text": "I hereby withdraw consent for sharing photos of me.",
+      "answers": [
+        {
+          "subject": "Accepted",
+          "date": 1486944618000,
+          "text": "We accepted your request the affected data will no longer be processed for this purpose."
+        }
+      ]
+    },
+    {
+      "subject": "Request for erasure",
+      "date": 1507553227000,
+      "text": "I hereby want all my data to be erased.",
+      "answers": []
+    },
+    {
+      "subject": "Request for rectification",
+      "date": 1496635141000,
+      "text": "I hereby want this inaccurate data to be rectified. I'm not bankrupt.",
+      "answers": [
+        {
+          "subject": "Accepted",
+          "date": 1498799203000,
+          "text": "We followed your request for rectification."
+        }
+      ]
+    },
+    {
+      "subject": "Request for rectification",
+      "date": 1507917663000,
+      "text": "I hereby want this inaccurate data to be rectified. I'm not rich.",
+      "answers": []
+    }
+  ]
+}

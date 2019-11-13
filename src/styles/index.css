@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 20px;
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 16px !important;
+}
+
+.background-container, .background-image {
+    width: 100%;
+    height: 35%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.background-image {
+    height: 100%;
+}
+
+/* THOMSON REUTERS FONTS */
+
+@font-face {
+  font-family: Knowledge2017;
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://app-data.gcs.trstatic.net/wel-trdotcom/fonts/all-characters/knowledge2017-light-webfont.woff2) format("woff2"),url(https://app-data.gcs.trstatic.net/wel-trdotcom/fonts/all-characters/knowledge2017-light-webfont.woff) format("woff")
+}
+
+@font-face {
+  font-family: Knowledge2017;
+  font-style: italic;
+  font-weight: 300;
+  src: url(https://app-data.gcs.trstatic.net/wel-trdotcom/fonts/all-characters/knowledge2017-lightitalic-webfont.woff2) format("woff2"),url(https://app-data.gcs.trstatic.net/wel-trdotcom/fonts/all-characters/knowledge2017-lightitalic-webfont.woff) format("woff")
+}
+
+@font-face {
+  font-family: Knowledge2017;
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://app-data.gcs.trstatic.net/wel-trdotcom/fonts/all-characters/knowledge2017-regular-webfont.woff2) format("woff2"),url(https://app-data.gcs.trstatic.net/wel-trdotcom/fonts/all-characters/knowledge2017-regular-webfont.woff) format("woff")
+}
+
+@font-face {
+  font-family: Knowledge2017;
+  font-style: italic;
+  font-weight: 400;
+  src: url(https://app-data.gcs.trstatic.net/wel-trdotcom/fonts/all-characters/knowledge2017-regularitalic-webfont.woff2) format("woff2"),url(https://app-data.gcs.trstatic.net/wel-trdotcom/fonts/all-characters/knowledge2017-regularitalic-webfont.woff) format("woff")
+}
+
+@font-face {
+  font-family: Knowledge2017;
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://app-data.gcs.trstatic.net/wel-trdotcom/fonts/all-characters/knowledge2017-medium-webfont.woff2) format("woff2"),url(https://app-data.gcs.trstatic.net/wel-trdotcom/fonts/all-characters/knowledge2017-medium-webfont.woff) format("woff")
+}
+
+@font-face {
+  font-family: Knowledge2017;
+  font-style: italic;
+  font-weight: 500;
+  src: url(https://app-data.gcs.trstatic.net/wel-trdotcom/fonts/all-characters/knowledge2017-mediumitalic-webfont.woff2) format("woff2"),url(https://app-data.gcs.trstatic.net/wel-trdotcom/fonts/all-characters/knowledge2017-mediumitalic-webfont.woff) format("woff")
+}
+
+@font-face {
+  font-family: Knowledge2017;
+  font-style: normal;
+  font-weight: 900;
+  src: url(https://app-data.gcs.trstatic.net/wel-trdotcom/fonts/all-characters/knowledge2017-black-webfont.woff2) format("woff2"),url(https://app-data.gcs.trstatic.net/wel-trdotcom/fonts/all-characters/knowledge2017-black-webfont.woff) format("woff")
+}
+
+@font-face {
+  font-family: Knowledge2017;
+  font-style: italic;
+  font-weight: 900;
+  src: url(https://app-data.gcs.trstatic.net/wel-trdotcom/fonts/all-characters/knowledge2017-blackitalic-webfont.woff2) format("woff2"),url(https://app-data.gcs.trstatic.net/wel-trdotcom/fonts/all-characters/knowledge2017-blackitalic-webfont.woff) format("woff")
+}
+
+/* T-LABS FONTS */
+
+@font-face {
+    font-family: TeleGroteskNext-Bold;
+    src: url("https://laboratories.telekom.com/wp-content/uploads/2018/01/TeleGroteskNext-Bold.woff") format("woff"),url("https://laboratories.telekom.com/wp-content/uploads/2018/01/TeleGroteskNext-Bold.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: TeleGroteskNext-Medium;
+    src: url("https://laboratories.telekom.com/wp-content/uploads/2018/01/TeleGroteskNext-Medium.woff") format("woff"),url("https://laboratories.telekom.com/wp-content/uploads/2018/01/TeleGroteskNext-Medium.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: TeleGroteskNext-Regular;
+    src: url("https://laboratories.telekom.com/wp-content/uploads/2018/01/TeleGroteskNext-Regular.woff") format("woff"),url("https://laboratories.telekom.com/wp-content/uploads/2018/01/TeleGroteskNext-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: TeleGroteskNext-Thin;
+    src: url("https://laboratories.telekom.com/wp-content/uploads/2018/01/TeleGroteskNext-Thin.woff") format("woff"),url("https://laboratories.telekom.com/wp-content/uploads/2018/01/TeleGroteskNext-Thin.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: TeleGroteskNext-Ultra;
+    src: url("https://laboratories.telekom.com/wp-content/uploads/2018/01/TeleGroteskNext-Ultra.woff") format("woff"),url("https://laboratories.telekom.com/wp-content/uploads/2018/01/TeleGroteskNext-Ultra.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* PROXIMUS FONTS */
+
+@font-face {
+    font-family: "ProximusBold";
+    src: url("https://www.proximus.be/resources/cdn/brand/fonts/Proximus-Bold.eot");
+    src: url("https://www.proximus.be/resources/cdn/brand/fonts/Proximus-Bold.eot?#iefix") format("embedded-opentype"),url("https://www.proximus.be/resources/cdn/brand/fonts/Proximus-Bold.woff") format("woff"),url("https://www.proximus.be/resources/cdn/brand/fonts/Proximus-Bold.ttf") format("truetype"),url("https://www.proximus.be/resources/cdn/brand/fonts/Proximus-Bold.svg#ProximusBold") format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "ProximusRegular";
+    src: url("https://www.proximus.be/resources/cdn/brand/fonts/Proximus-Regular.eot");
+    src: url("https://www.proximus.be/resources/cdn/brand/fonts/Proximus-Regular.eot?#iefix") format("embedded-opentype"),url("https://www.proximus.be/resources/cdn/brand/fonts/Proximus-Regular.woff") format("woff"),url("https://www.proximus.be/resources/cdn/brand/fonts/Proximus-Regular.ttf") format("truetype"),url("https://www.proximus.be/resources/cdn/brand/fonts/Proximus-Regular.svg#ProximusRegular") format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "ProximusLight";
+    src: url("https://www.proximus.be/resources/cdn/brand/fonts/Proximus-Light.eot");
+    src: url("https://www.proximus.be/resources/cdn/brand/fonts/Proximus-Light.eot?#iefix") format("embedded-opentype"),url("https://www.proximus.be/resources/cdn/brand/fonts/Proximus-Light.woff") format("woff"),url("https://www.proximus.be/resources/cdn/brand/fonts/Proximus-Light.ttf") format("truetype"),url("https://www.proximus.be/resources/cdn/brand/fonts/Proximus-Light.svg#ProximusLight") format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "ProximusExtraBold";
+    src: url("https://www.proximus.be/resources/cdn/brand/fonts/Proximus-ExtraB.eot");
+    src: url("https://www.proximus.be/resources/cdn/brand/fonts/Proximus-ExtraB.eot?#iefix") format("embedded-opentype"),url("https://www.proximus.be/resources/cdn/brand/fonts/Proximus-ExtraB.woff") format("woff"),url("https://www.proximus.be/resources/cdn/brand/fonts/Proximus-ExtraB.ttf") format("truetype"),url("https://www.proximus.be/resources/cdn/brand/fonts/Proximus-ExtraB.svg#ProximusExtraBold") format("svg");
+    font-weight: normal;
+    font-style: normal
+}

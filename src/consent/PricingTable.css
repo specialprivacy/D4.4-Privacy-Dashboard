@@ -1,0 +1,37 @@
+.feature-available-icon {
+    fill: green !important;
+}
+
+.feature-not-available-icon {
+    fill: red !important;
+}
+
+.hide-feature {
+    opacity: 0.35 !important;
+}
+
+h2 {
+    font-size: 16pt;
+}
+
+#custom-consent {
+    opacity: 0.25;
+}
+
+#custom-consent:hover {
+    opacity: 1.0;
+}
+
+.credit-score {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    border-radius: 64px;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+    margin-top: -50px;
+    margin-right: -5px;
+    padding-top: 14px;
+    right: 0;
+    text-align: center;
+}
